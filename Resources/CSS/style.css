@@ -3,7 +3,6 @@
   color: seashell;
   font-family: Helvetica;
   opacity: 0.9;
-  font-size: 22px;
   margin: 0px;
 }
 
@@ -24,6 +23,7 @@ header {
 
 #header_nav {
   margin-right: 10px;
+  font-size: 22px;
 }
 
 .navlink {
@@ -61,7 +61,27 @@ header {
   text-align: center;
 }
 
-#Featured_Tea {
+#Featured_Teas {
   display: flex;
   width: 1000px;
+  margin: 50px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#Featured_headline {
+  width: 1000px;
+  margin: 20px;
+  text-align: center;
+}
+
+#Featured_Teas img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.Featured_item {
+  margin: 5px;
+  text-align: center;
 }
