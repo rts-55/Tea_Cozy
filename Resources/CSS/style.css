@@ -52,12 +52,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   width: 1200px;
   height: 100px;
-}
-
-#Mission_text {
-  text-align: center;
 }
 
 #Featured_Teas {
@@ -97,9 +94,13 @@ header {
 #locations h1 {
   position: absolute;
   background-color: transparent;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 15px;
+  margin-top: 75px;
+}
+
+#locations_banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .Location {
@@ -112,10 +113,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.Location p {
-  display: block;
 }
 
 footer {
